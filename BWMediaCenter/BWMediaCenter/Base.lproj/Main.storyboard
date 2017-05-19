@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -80,6 +81,91 @@
                                             <segue destination="vaU-PG-DFk" kind="show" id="vhg-Vm-iSa"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="qN1-Vh-3nE" style="IBUITableViewCellStyleDefault" id="2m1-1C-ndK">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2m1-1C-ndK" id="R0p-Jr-hXu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="视频播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qN1-Vh-3nE">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="lo5-VU-Pco" style="IBUITableViewCellStyleDefault" id="BkV-PC-UOm">
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BkV-PC-UOm" id="cmr-R8-7tT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="视频的选择和录制" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lo5-VU-Pco">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="tF6-Pz-Heb" style="IBUITableViewCellStyleDefault" id="87o-A1-bUH">
+                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="87o-A1-bUH" id="OvX-xs-rcl">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="视频格式转换" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tF6-Pz-Heb">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="C20-Bc-QMS" style="IBUITableViewCellStyleDefault" id="LdV-5a-Ley">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LdV-5a-Ley" id="xot-8a-csd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="图片浏览器" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C20-Bc-QMS">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="p1T-pC-yX5" style="IBUITableViewCellStyleDefault" id="JIb-TN-8PS">
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JIb-TN-8PS" id="Mad-vT-tI9">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="滤镜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p1T-pC-yX5">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -106,98 +192,147 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-cU-77L">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-cU-77L">
                                 <rect key="frame" x="16" y="193" width="334" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zQU-3O-Wjd">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zQU-3O-Wjd">
                                 <rect key="frame" x="16" y="317" width="334" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="播放进度：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3t-jk-na3">
-                                <rect key="frame" x="16" y="164" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="下载进度：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFc-Pe-NbF">
-                                <rect key="frame" x="16" y="109" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jVl-oR-ABI">
-                                <rect key="frame" x="16" y="138" width="334" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="播放时长：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="448-7P-SPx">
-                                <rect key="frame" x="16" y="213" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="总时长：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpi-gf-drL">
-                                <rect key="frame" x="16" y="252" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTA-nd-eBu">
-                                <rect key="frame" x="143" y="213" width="207" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWw-vm-EIn">
-                                <rect key="frame" x="143" y="252" width="207" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="音量高低：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpj-M1-8kk">
-                                <rect key="frame" x="16" y="288" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zuy-TK-Qgc">
-                                <rect key="frame" x="14" y="385" width="338" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zuy-TK-Qgc">
+                                <rect key="frame" x="14" y="368" width="338" height="31"/>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="播放控制：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OM-fz-ntx">
-                                <rect key="frame" x="16" y="371" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放进度：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3t-jk-na3">
+                                <rect key="frame" x="16" y="164" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ra-BZ-Rjb">
-                                <rect key="frame" x="150" y="490" width="75" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下载进度：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFc-Pe-NbF">
+                                <rect key="frame" x="16" y="109" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放控制：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OM-fz-ntx">
+                                <rect key="frame" x="16" y="354" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ra-BZ-Rjb">
+                                <rect key="frame" x="149" y="503" width="75" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="暂停/播放"/>
+                                <connections>
+                                    <action selector="playAction:" destination="BI1-Vf-uld" eventType="touchUpInside" id="79S-Ck-jVg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROm-Tb-ocT">
-                                <rect key="frame" x="290" y="490" width="35" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROm-Tb-ocT">
+                                <rect key="frame" x="290" y="503" width="35" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="快进"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXp-Iv-1B2">
-                                <rect key="frame" x="50" y="490" width="35" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXp-Iv-1B2">
+                                <rect key="frame" x="49" y="503" width="35" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="快退"/>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jVl-oR-ABI">
+                                <rect key="frame" x="16" y="138" width="334" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="播放时长：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="448-7P-SPx">
+                                <rect key="frame" x="16" y="213" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总时长：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpi-gf-drL">
+                                <rect key="frame" x="16" y="252" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTA-nd-eBu">
+                                <rect key="frame" x="143" y="213" width="207" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWw-vm-EIn">
+                                <rect key="frame" x="143" y="252" width="207" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音量高低：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpj-M1-8kk">
+                                <rect key="frame" x="16" y="288" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsm-yR-W3P">
+                                <rect key="frame" x="147" y="575" width="70" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="边下边播"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音量控制：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SX-Ea-ls9">
+                                <rect key="frame" x="16" y="406" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Ky-tS-l9m">
+                                <rect key="frame" x="14" y="425" width="338" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9OM-fz-ntx" firstAttribute="leading" secondItem="Zuy-TK-Qgc" secondAttribute="leading" id="23U-VU-FLj"/>
+                            <constraint firstItem="bpi-gf-drL" firstAttribute="baseline" secondItem="rWw-vm-EIn" secondAttribute="baseline" id="3eq-os-AtC"/>
+                            <constraint firstItem="ZFc-Pe-NbF" firstAttribute="leading" secondItem="jVl-oR-ABI" secondAttribute="leading" id="47t-bC-1D6"/>
+                            <constraint firstItem="0SX-Ea-ls9" firstAttribute="top" secondItem="Zuy-TK-Qgc" secondAttribute="bottom" constant="8" symbolic="YES" id="638-NT-NUI"/>
+                            <constraint firstItem="iTA-nd-eBu" firstAttribute="leading" secondItem="rWw-vm-EIn" secondAttribute="leading" id="EFm-rA-NQF"/>
+                            <constraint firstItem="ZFc-Pe-NbF" firstAttribute="trailing" secondItem="I3t-jk-na3" secondAttribute="trailing" id="ERp-hp-FIG"/>
+                            <constraint firstItem="448-7P-SPx" firstAttribute="baseline" secondItem="iTA-nd-eBu" secondAttribute="baseline" id="FC0-Lh-e68"/>
+                            <constraint firstItem="tsm-yR-W3P" firstAttribute="leading" secondItem="KFR-IA-lnj" secondAttribute="leading" constant="147" id="FrO-oi-JL6"/>
+                            <constraint firstItem="ZFc-Pe-NbF" firstAttribute="top" secondItem="1RL-VK-0h9" secondAttribute="bottom" constant="45" id="GHp-Nc-tG0"/>
+                            <constraint firstItem="ROm-Tb-ocT" firstAttribute="leading" secondItem="8ra-BZ-Rjb" secondAttribute="trailing" constant="66" id="GkE-5s-1xh"/>
+                            <constraint firstItem="jVl-oR-ABI" firstAttribute="top" secondItem="ZFc-Pe-NbF" secondAttribute="bottom" constant="8" symbolic="YES" id="Gxf-3m-4fC"/>
+                            <constraint firstItem="tsm-yR-W3P" firstAttribute="top" secondItem="8ra-BZ-Rjb" secondAttribute="bottom" constant="39" id="HNp-HX-idu"/>
+                            <constraint firstItem="zQU-3O-Wjd" firstAttribute="trailing" secondItem="Zuy-TK-Qgc" secondAttribute="trailing" id="ILh-w8-uks"/>
+                            <constraint firstItem="I3t-jk-na3" firstAttribute="leading" secondItem="RQL-cU-77L" secondAttribute="leading" id="IOc-t6-EXf"/>
+                            <constraint firstItem="RQL-cU-77L" firstAttribute="top" secondItem="I3t-jk-na3" secondAttribute="bottom" constant="8" symbolic="YES" id="J1x-En-wBp"/>
+                            <constraint firstItem="ZFc-Pe-NbF" firstAttribute="leading" secondItem="KFR-IA-lnj" secondAttribute="leadingMargin" id="JQb-9b-eZW"/>
+                            <constraint firstItem="iTA-nd-eBu" firstAttribute="leading" secondItem="448-7P-SPx" secondAttribute="trailing" constant="40" id="Jq6-ue-xCL"/>
+                            <constraint firstItem="I3t-jk-na3" firstAttribute="top" secondItem="jVl-oR-ABI" secondAttribute="bottom" constant="24" id="KgT-k0-rzA"/>
+                            <constraint firstItem="iXp-Iv-1B2" firstAttribute="top" secondItem="0Ky-tS-l9m" secondAttribute="bottom" constant="48" id="LlU-fB-2OD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jVl-oR-ABI" secondAttribute="trailing" constant="9" id="NSq-IP-ShX"/>
+                            <constraint firstItem="iTA-nd-eBu" firstAttribute="trailing" secondItem="rWw-vm-EIn" secondAttribute="trailing" id="QHa-cx-JfA"/>
+                            <constraint firstItem="Zuy-TK-Qgc" firstAttribute="leading" secondItem="0SX-Ea-ls9" secondAttribute="leading" id="Qsp-Xr-ZYt"/>
+                            <constraint firstItem="jVl-oR-ABI" firstAttribute="trailing" secondItem="RQL-cU-77L" secondAttribute="trailing" id="RkL-ju-BbR"/>
+                            <constraint firstItem="iXp-Iv-1B2" firstAttribute="baseline" secondItem="8ra-BZ-Rjb" secondAttribute="baseline" id="S1Z-t3-0o0"/>
+                            <constraint firstItem="RQL-cU-77L" firstAttribute="leading" secondItem="448-7P-SPx" secondAttribute="leading" id="T9h-6G-MGt"/>
+                            <constraint firstItem="zQU-3O-Wjd" firstAttribute="leading" secondItem="9OM-fz-ntx" secondAttribute="leading" id="U0f-pO-Icb"/>
+                            <constraint firstItem="jVl-oR-ABI" firstAttribute="leading" secondItem="I3t-jk-na3" secondAttribute="leading" id="ZBw-Sh-p2o"/>
+                            <constraint firstItem="448-7P-SPx" firstAttribute="leading" secondItem="bpi-gf-drL" secondAttribute="leading" id="ZIG-PK-vz3"/>
+                            <constraint firstItem="0Ky-tS-l9m" firstAttribute="top" secondItem="Zuy-TK-Qgc" secondAttribute="bottom" constant="27" id="aP5-6E-fot"/>
+                            <constraint firstItem="9OM-fz-ntx" firstAttribute="top" secondItem="zQU-3O-Wjd" secondAttribute="bottom" constant="35" id="aS3-6H-OO2"/>
+                            <constraint firstItem="zQU-3O-Wjd" firstAttribute="top" secondItem="Hpj-M1-8kk" secondAttribute="bottom" constant="8" symbolic="YES" id="akv-yJ-UcF"/>
+                            <constraint firstItem="bpi-gf-drL" firstAttribute="leading" secondItem="Hpj-M1-8kk" secondAttribute="leading" id="cTb-dG-Kiw"/>
+                            <constraint firstItem="8ra-BZ-Rjb" firstAttribute="leading" secondItem="iXp-Iv-1B2" secondAttribute="trailing" constant="65" id="eNA-Rt-VT5"/>
+                            <constraint firstItem="bpi-gf-drL" firstAttribute="top" secondItem="448-7P-SPx" secondAttribute="bottom" constant="18" id="hkZ-6u-SOU"/>
+                            <constraint firstItem="8ra-BZ-Rjb" firstAttribute="baseline" secondItem="ROm-Tb-ocT" secondAttribute="baseline" id="iEa-UE-h7L"/>
+                            <constraint firstItem="Zuy-TK-Qgc" firstAttribute="trailing" secondItem="0Ky-tS-l9m" secondAttribute="trailing" id="kcu-yR-O0m"/>
+                            <constraint firstItem="0SX-Ea-ls9" firstAttribute="leading" secondItem="0Ky-tS-l9m" secondAttribute="leading" id="nhP-td-xD0"/>
+                            <constraint firstItem="RQL-cU-77L" firstAttribute="trailing" secondItem="iTA-nd-eBu" secondAttribute="trailing" id="ryx-GX-gxb"/>
+                            <constraint firstItem="iXp-Iv-1B2" firstAttribute="leading" secondItem="KFR-IA-lnj" secondAttribute="leadingMargin" constant="33" id="sVK-Gw-4c4"/>
+                            <constraint firstItem="I3t-jk-na3" firstAttribute="trailing" secondItem="448-7P-SPx" secondAttribute="trailing" id="ujp-bb-Yes"/>
+                            <constraint firstItem="Hpj-M1-8kk" firstAttribute="top" secondItem="bpi-gf-drL" secondAttribute="bottom" constant="15" id="wLO-ui-G2d"/>
+                            <constraint firstItem="Hpj-M1-8kk" firstAttribute="leading" secondItem="zQU-3O-Wjd" secondAttribute="leading" id="x9j-h2-i0W"/>
+                            <constraint firstItem="0SX-Ea-ls9" firstAttribute="top" secondItem="9OM-fz-ntx" secondAttribute="bottom" constant="31" id="xZV-dI-lt3"/>
+                            <constraint firstItem="rWw-vm-EIn" firstAttribute="trailing" secondItem="zQU-3O-Wjd" secondAttribute="trailing" id="y4Q-NZ-tCg"/>
+                            <constraint firstItem="448-7P-SPx" firstAttribute="top" secondItem="RQL-cU-77L" secondAttribute="bottom" constant="18" id="yzT-Uq-smf"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZJ-ov-wTr" userLabel="First Responder" sceneMemberID="firstResponder"/>

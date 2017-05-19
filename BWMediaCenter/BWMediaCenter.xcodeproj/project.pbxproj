@@ -10,6 +10,7 @@
 		59B66FD66E65FF4B9EB963D0 /* libPods-BWMediaCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F89E8EA26F5FB1BB275A8A /* libPods-BWMediaCenter.a */; };
 		B43046061ECECC040029F9D8 /* music_baishi_kle_Days_on_my_past.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B43046051ECECC040029F9D8 /* music_baishi_kle_Days_on_my_past.mp3 */; };
 		B430460A1ECECF110029F9D8 /* BWAudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43046091ECECF110029F9D8 /* BWAudioPlayerViewController.m */; };
+		B430460C1ECEED100029F9D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430460B1ECEED100029F9D8 /* AVFoundation.framework */; };
 		B494E55D1ECD77780048C579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E55C1ECD77780048C579 /* main.m */; };
 		B494E5601ECD77780048C579 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B494E55F1ECD77780048C579 /* AppDelegate.m */; };
 		B494E5661ECD77780048C579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B494E5641ECD77780048C579 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		B43046051ECECC040029F9D8 /* music_baishi_kle_Days_on_my_past.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music_baishi_kle_Days_on_my_past.mp3; sourceTree = "<group>"; };
 		B43046081ECECF110029F9D8 /* BWAudioPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAudioPlayerViewController.h; sourceTree = "<group>"; };
 		B43046091ECECF110029F9D8 /* BWAudioPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAudioPlayerViewController.m; sourceTree = "<group>"; };
+		B430460B1ECEED100029F9D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B494E5581ECD77780048C579 /* BWMediaCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWMediaCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B494E55C1ECD77780048C579 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B494E55E1ECD77780048C579 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B430460C1ECEED100029F9D8 /* AVFoundation.framework in Frameworks */,
 				59B66FD66E65FF4B9EB963D0 /* libPods-BWMediaCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +139,7 @@
 		7A6A9921596E4172FE0BFA2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B430460B1ECEED100029F9D8 /* AVFoundation.framework */,
 				C6F89E8EA26F5FB1BB275A8A /* libPods-BWMediaCenter.a */,
 			);
 			name = Frameworks;

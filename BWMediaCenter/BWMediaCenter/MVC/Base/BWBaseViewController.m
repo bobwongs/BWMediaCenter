@@ -14,4 +14,10 @@
 
 @implementation BWBaseViewController
 
+#pragma mark - Life Cycle
+
+- (void)dealloc {
+    NSLog(@"dealloc %@", NSStringFromClass([self class]));
+}
+
 @end
